@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://localhost:44324/FinanceWebService.asmx?wsdl" docRef="https://localhost:44324/FinanceWebService.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://localhost:44324/FinanceWebService.asmx" xmlns:q1="https://localhost:44324/FinanceWebService.asmx" binding="q1:FinanceWebServiceSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://localhost:44324/FinanceWebService.asmx" xmlns:q2="https://localhost:44324/FinanceWebService.asmx" binding="q2:FinanceWebServiceSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

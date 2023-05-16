@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstWebServices", "FirstWebServices\FirstWebServices.csproj", "{9135B793-53D9-470D-BC6F-AED98B2B067D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceClient", "FinanceClient\FinanceClient.csproj", "{6884B77D-96FA-4022-90AF-EAF3DF29DA4C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9135B793-53D9-470D-BC6F-AED98B2B067D} = {9135B793-53D9-470D-BC6F-AED98B2B067D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9135B793-53D9-470D-BC6F-AED98B2B067D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9135B793-53D9-470D-BC6F-AED98B2B067D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9135B793-53D9-470D-BC6F-AED98B2B067D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9135B793-53D9-470D-BC6F-AED98B2B067D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6884B77D-96FA-4022-90AF-EAF3DF29DA4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6884B77D-96FA-4022-90AF-EAF3DF29DA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6884B77D-96FA-4022-90AF-EAF3DF29DA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6884B77D-96FA-4022-90AF-EAF3DF29DA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4A1B7E3-E43A-47E8-9A5B-838DFDE59E59}
+	EndGlobalSection
+EndGlobal
